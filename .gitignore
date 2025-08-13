@@ -1,0 +1,73 @@
+# 🧠 Python кеши и временные файлы
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 📦 Виртуальные окружения
+*.venv/
+.venv/
+venv/
+
+# 🗂️ Логи и артефакты выполнения
+*.log
+log/
+*.json
+client/log/
+server/diagmax.db
+
+# 🖼️ Изображения и медиа
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.pdf
+*.woff*
+*.ttf
+*.otf
+!docs/logo.png
+
+# 📦 Архивы, дампы, сборки
+*.iso
+*.zip
+*.tar
+*.tar.gz
+*.bz2
+*.xz
+archive.tar.gz
+diagmax.iso
+
+# 🧱 Бинарники и артефакты сборки
+*.exe
+*.dll
+*.so
+*.o
+*.a
+*.out
+*.elf
+*.bin
+*.img
+
+# 🔧 Временные или IDE-файлы
+*.swp
+*.swo
+*.bak
+*~
+.DS_Store
+.idea/
+.vscode/
+*.tmp
+
+# 📁 Копии build и ISO
+iso_root/
+build/
+dist/
+
+# Server/Client Python artifacts
+server/__pycache__/
+server/**/*.pyc
+client/__pycache__/
+client/**/*.pyc
+offline_pkgs/*.whl
+offline_pkgs/*.tar.gz
